@@ -22,12 +22,10 @@ test:
   #<<: *default
   #database: db/test.sqlite3
   adapter: postgresql
-  pool: 5
   encoding: unicode
 
 production:
   #<<: *default
   #database: db/production.sqlite3
   adapter: postgresql
-  pool: 5
   encoding: unicode
